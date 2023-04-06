@@ -1,0 +1,172 @@
+.taches .header_tache {
+    /* border: 1px solid; */
+    display: flex;
+    height: 18vh;
+    margin: 1em 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.taches .header_tache .header_nom {
+    /* border: 1px solid; */
+    width: 50%;
+}
+.taches .header_tache .header_nom .titre_projet{
+    font-size: 1.5em;
+    /* border: 1px solid; */
+    margin: 0.2em 0;
+}
+.taches .header_tache .header_nom .date {
+    font-size: 0.8em;
+}
+.taches .header_tache .header_evolution {
+    /* border: 1px solid; */
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.taches .header_tache .header_evolution .cercle {
+    width: 75%;
+    height: 13vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 8px solid green; */
+}
+.taches .header_tache .header_evolution .cercle.rouge {
+    border: 10px solid red;
+}
+.taches .header_tache .header_evolution .cercle.vert {
+    border: 10px solid green;
+}
+.taches .header_tache .header_evolution .cercle p {
+    font-weight: bold;
+}
+
+.taches .container_information {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.taches .container_information .tache_infos {
+    width: 37%;
+    /* border: 1px solid gray; */
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.taches .container_information .tache_infos div {
+    /* border: 1px solid; */
+    margin-bottom: 1em;
+}
+.taches .container_information .tache_infos .title {
+    color: gray;
+    /* font-size: 0.8em; */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.taches .container_tache {
+    /* border: 1px solid gray; */
+    width: 63%
+}
+.taches .container_tache .add_btn {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 11vh;
+}
+.taches .container_tache .add_btn .add {
+    border: 1px solid orangered;
+    padding: 0.4em 0.7em;
+    /* color: white; */
+    border-radius: 5px;
+    margin: 0 0.5em;
+    /* background: orange; */
+}
+.taches .container_tache .cards_tache {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.taches .container_tache .cards_tache .card_tache {
+    padding: 0 1.5em 0.5em 1.5em;
+    /* border: 1px solid; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 85%;
+    margin: 1em 0;
+    border-radius: 6px;
+}
+.taches .container_tache .cards_tache .card_tache .nom_title {
+    margin-top: 1em;
+}
+.taches .container_tache .cards_tache .card_tache .numero_tache {
+    /* border: 1px solid; */
+    height: 8vh;
+    color: orange;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+.taches .container_tache .cards_tache .card_tache .title {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.taches .container_tache .cards_tache .card_tache .date_tache {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em 0 0 0;
+}
+.taches .container_tache .cards_tache .card_tache .btn_valider {
+    height: 8vh;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.taches .container_tache .cards_tache .card_tache .btn_valider button {
+    padding: 0.6em 0.8em;
+    border-radius: 5px;
+}
+.taches .container_tache .cards_tache .card_tache .btn_valider .valider {
+    background: green;
+    color: wheat;
+    cursor: pointer;
+}
+.taches .container_tache .cards_tache .card_tache .btn_valider .modifier {
+    background: wheat;
+    padding: 0.4em 0.8em;
+    border-radius: 5px;
+}
+.taches .container_tache .cards_tache .card_tache .btn_valider .supprimer {
+    background: red;
+    color: wheat;
+    cursor: pointer;
+}
+.taches .container_tache .cards_tache .card_tache .realisation {
+    margin: 0.8rem 0;
+}
+.taches .container_tache .cards_tache .card_tache .realisation .liste_user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.3em;
+}
+.taches .container_tache .cards_tache .card_tache .realisation .liste_user p {
+    border: 1px solid gray;
+    padding: 0.2em 0.7em;
+    font-size: 0.8em;
+    border-radius: 25px;
+    margin-bottom: 0.5em;
+}
+.taches .container_tache .cards_tache .card_tache .description {
+    /* border: 1px solid; */
+    margin-top: 0.8em;
+}

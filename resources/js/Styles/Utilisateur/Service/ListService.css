@@ -1,0 +1,45 @@
+.departements .departement {
+    margin: 1.5em;
+    width: 50%;
+    display: flex;
+}
+.departements .departement p {
+    text-transform: uppercase;
+    background: orange;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 0.6em 2em;
+}
+.departements .services_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.departements .services_cards .service_card {
+    /* border: 1px solid; */
+    margin-bottom: 0.5em;
+}
+.departements .services_cards .service_card .nom_service_card {
+    display: flex;
+    /* border: 1px solid; */
+    align-items: center;
+    margin: 0.5em 0 0.5em 3.5em;
+}
+.departements .services_cards .service_card .nom_service_card .rond {
+    /* border: 1px solid; */
+    width: 1.5%;
+    background: orange;
+    height: 2vh;
+    border-radius: 50%;
+}
+.departements .services_cards .service_card .nom_service_card p {
+    /* border: 1px solid; */
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+.departements .services_cards .service_card .description {
+    margin-left: 5em;
+    width: 80%;
+    /* border: 1px solid; */
+}

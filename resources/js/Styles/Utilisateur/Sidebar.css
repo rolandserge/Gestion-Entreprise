@@ -1,0 +1,114 @@
+
+.sidebar_div .container_logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-bottom: 3em;
+}
+.sidebar_div .logo {
+    border-radius: 3px;
+    width: 30%;
+    height: 13vh;
+    display: flex;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: orange;
+}
+.sidebar_div .elements {
+    background: white;
+    height: 73vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.sidebar_div .elements .user_profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    margin-bottom: 1rem;
+}
+.sidebar_div .elements .user_profil .photo {
+    width: 23%;
+    height: 12vh;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -4rem;
+}
+.sidebar_div .elements .user_profil .photo img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid orange;
+    height: 100%;
+}
+.sidebar_div .elements .listes_elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sidebar_div .elements .listes_elements .element_div {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    justify-content: space-around;
+}
+.sidebar_div .elements .listes_elements .element_div.active {
+    background: orange;
+    color: white;
+    border: none;
+}
+.sidebar_div .elements .listes_elements .element_div .image_div {
+    width: 15%;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar_div .elements .listes_elements .element_div .image_div img {
+    width: 60%;
+}
+.sidebar_div .elements .listes_elements .element_div .title {
+    width: 75%;
+}
+.sidebar_div .elements .infos_div {
+    text-align: center;
+}
+.sidebar_div .elements .infos_div .service {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.sidebar_div .elements .infos_div .titre {
+    font-size: 0.9em;
+    color: gray;
+}
+.sidebar_div .elements .deconnexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar_div .elements .deconnexion .user_deco {
+    width: 13.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+    background: orange;
+}
+.sidebar_div .elements .deconnexion .user_deco:hover {
+    background: #FBBA16;
+}
+.sidebar_div .elements .deconnexion .user_deco img {
+    width: 40%;
+}

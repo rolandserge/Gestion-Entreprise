@@ -1,0 +1,106 @@
+.add_tache_container {
+    background: rgb(49, 49, 49, 0.8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.add_tache_container .add_tache_user {
+    background: white;
+    padding: 1em 2em;
+    /* height: 82vh; */
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.add_tache_container .add_tache_user .header_tache_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    height: 8vh;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 1.3em;
+    background: none;
+    font-weight: bold;
+}
+.add_tache_container .add_tache_user .header_tache_div .x_btn {
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 0.01em 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: orange;
+}
+
+.add_tache_container .add_tache_user .description_tache {
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.add_tache_container .add_tache_user .description_tache textarea {
+    height: 15vh;
+    padding: 1em;
+    border: 1px solid gray;
+    min-height: 15vh;
+    max-height: 15vh;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 3px;
+}
+.add_tache_container .add_tache_user .tache_div_identique_nom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid; */
+    height: 10.5vh;
+    margin-top: 0.5em;
+}
+.add_tache_container .add_tache_user .tache_div_identique {
+    width: 48%;
+    display: flex;
+    margin: 0.8em 0;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10.5vh;
+}
+.add_tache_container .add_tache_user input {
+    height: 6vh;
+    width: 100%;
+    border-radius: 3px;
+    /* border: 1px solid gray; */
+}
+.add_tache_container .add_tache_user .tache_user_part {
+    /* border: 1px solid; */
+    width: 100%;
+}
+.add_tache_container .add_tache_user .add_tache_btn  {
+    /* border: 1px solid; */
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.add_tache_container .add_tache_user .add_tache_btn button {
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: orange;
+}
